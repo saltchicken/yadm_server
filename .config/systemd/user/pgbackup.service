@@ -1,0 +1,6 @@
+[Unit]
+Description=PostgreSQL Backup for Syncthing
+
+[Service]
+Type=oneshot
+ExecStart=/home/saltchicken/.config/systemd/user/scripts/pgbackup.sh
